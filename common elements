@@ -1,0 +1,25 @@
+n= int(input("Enter thhe numbr of elemets you would like to add:"))
+
+print()
+
+l=list()
+
+for i in range(n):
+
+ x=eval(input("Enter the element:"))
+
+ l.append(x)
+
+ print()
+
+ print(l,"is the given list.")
+
+ print()
+
+for i in l:
+
+ if l.count(i)>1:
+
+ l.remove(i)
+
+print(l."is the new list.")
