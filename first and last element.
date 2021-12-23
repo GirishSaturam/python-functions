@@ -1,0 +1,19 @@
+n=in(input("the number of elements in the list:))
+
+  if n==0:
+  
+    print("Length is zero. Invalid input")
+    
+   else:
+   
+    print("Ener the elements into the list.")
+    
+    a=[]
+    
+    for i in range(n):
+    
+     a.append(int(inpt(">>")))
+     
+    print("First Element:",a[0])
+    
+    print("Last Element:",a[-1])
