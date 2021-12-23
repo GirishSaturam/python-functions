@@ -1,0 +1,21 @@
+string= raw_input("Enter the sentence:")
+
+count1=0
+
+count2=0
+
+for i in stirng: 
+ 
+ if(i.isdigit()):
+  
+  count1=count1+1
+  
+  count2=count2+1
+ 
+ print("The Number of digits is :")
+ 
+ priny(count1
+ 
+ print("The Number of characters is:")
+ 
+ print(cocunt2)
